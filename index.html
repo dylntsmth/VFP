@@ -608,12 +608,15 @@ function submitGoogleForm(e) {
     <!-- ALL SCRIPTS (Feather icons + modals + FIXED language toggle) -->
     <script>
     // Initialize Feather icons
-    document.addEventListener("DOMContentLoaded", () => {
-        feather.replace();
-        if (!sessionStorage.getItem('legalAcknowledged')) {
-            document.getElementById('legalPopup').classList.remove('hidden');
-        }
-    });
+  document.addEventListener("DOMContentLoaded", () => {
+    feather.replace();
+    
+    // This forces the popup to show EVERY time the page loads
+    document.getElementById('legalPopup').classList.remove('hidden');
+    
+    // Optional: clear the flag on every load (just in case)
+    sessionStorage.removeItem('legalAcknowledged');
+});  
 
     // Modal functions
     function openQuoteModal() {
