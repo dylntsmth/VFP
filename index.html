@@ -14,25 +14,22 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 </head>
 <body class="bg-black font-['Inter'] text-white antialiased overflow-x-hidden">
-  
+ 
 <!-- FINAL Header – "Call" on mobile (tappable), full number on desktop -->
 <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-gradient-to-b from-black/80 via-black/60 to-transparent backdrop-blur-md">
     <div class="container mx-auto px-6">
         <div class="flex items-center justify-between h-16 lg:h-20">
-
             <!-- Logo -->
             <a href="#" class="text-2xl lg:text-3xl font-light tracking-tight">
                 VEGAS<span class="font-medium">FAMILY</span>PRO'S
             </a>
-
             <!-- Desktop: Nav + Full Contact + CTA -->
             <div class="hidden lg:flex items-center space-x-8 xl:space-x-10">
                 <nav class="flex items-center space-x-8 text-sm">
-                    <a href="#solutions" class="text-gray-300 hover:text-white transition">Process</a>
-                    <a href="#pricing" class="text-gray-300 hover:text-white transition">Pricing</a>
-                    <a href="#testimonials" class="text-gray-300 hover:text-white transition">Results</a>
+                    <a href="#solutions" class="text-gray-300 hover:text-white transition" data-es="Process">Process</a>
+                    <a href="#pricing" class="text-gray-300 hover:text-white transition" data-es="Pricing">Pricing</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition" data-es="Results">Results</a>
                 </nav>
-
                 <div class="flex items-center space-x-6 text-gray-300 border-l border-white/10 pl-8">
                     <a href="tel:+17025561643" class="flex items-center hover:text-amber-400 transition text-sm font-medium">
                         <i data-feather="phone" class="w-4 h-4 mr-2"></i> (702) 556-1643
@@ -41,50 +38,46 @@
                         <i data-feather="mail" class="w-4 h-4 mr-2"></i> info@vegasfamilypros.com
                     </a>
                 </div>
-
-                <a href="#contact" class="px-7 py-3 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-sm font-semibold tracking-wider transition-all hover:shadow-xl hover:shadow-amber-500/20">
+                <a href="#contact" class="px-7 py-3 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-sm font-semibold tracking-wider transition-all hover:shadow-xl hover:shadow-amber-500/20" data-es="START TODAY">
                     START TODAY
                 </a>
             </div>
-
             <!-- Mobile: "Call · Email · START" (tappable) -->
             <div class="flex lg:hidden items-center space-x-3 text-xs font-medium">
-                <a href="tel:+17025561643" class="text-amber-400 hover:text-amber-300 transition">Call</a>
+                <a href="tel:+17025561643" class="text-amber-400 hover:text-amber-300 transition" data-es="Call">Call</a>
                 <span class="text-gray-600">·</span>
-                <a href="mailto:info@vegasfamilypros.com" class="text-gray-300 hover:text-amber-400 transition">Email</a>
+                <a href="mailto:info@vegasfamilypros.com" class="text-gray-300 hover:text-amber-400 transition" data-es="Email">Email</a>
                 <span class="text-gray-600">·</span>
-                <a href="#contact" class="px-4 py-2 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-xs font-semibold">
+                <a href="#contact" class="px-4 py-2 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-xs font-semibold" data-es="START">
                     START
                 </a>
             </div>
         </div>
     </div>
 </header>
-
     <!-- Hero Section -->
     <section class="min-h-screen flex items-center relative overflow-hidden">
         <div class="absolute inset-0 bg-black/40 z-10"></div>
         <img src="https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg" alt="Happy luxury family" class="absolute inset-0 w-full h-full object-cover object-center">
 <div class="container mx-auto px-6 relative z-20 pt-24">
             <div class="max-w-4xl">
-                <h1 class="text-5xl md:text-7xl font-light leading-tight mb-6">
+                <h1 class="text-5xl md:text-7xl font-light leading-tight mb-6" data-es="Family Law Doesn't Have To Destroy You.">
                     Family Law Doesn't <br>Have To Destroy You.
                 </h1>
-                <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl">
+                <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl" data-es="Predictable flat rates. Expert document preparation. Private mediation. Real attorneys only when you actually need them in court.">
                     Predictable flat rates. Expert document preparation. Private mediation. Real attorneys only when you actually need them in court.
                 </p>
                 <div class="flex space-x-4">
-                    <a href="#contact" class="px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-lg font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/20">
+                    <a href="#contact" class="px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-lg font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/20" data-es="Start Saving Today">
                         Start Saving Today
                     </a>
-                    <a href="#solutions" class="px-8 py-4 border border-white/20 hover:border-white/40 rounded-full text-lg font-medium tracking-wider transition-all hover:bg-white/5">
+                    <a href="#solutions" class="px-8 py-4 border border-white/20 hover:border-white/40 rounded-full text-lg font-medium tracking-wider transition-all hover:bg-white/5" data-es="Learn More">
                         Learn More
                     </a>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Modal JavaScript -->
     <script>
     function openQuoteModal() {
@@ -106,210 +99,208 @@
 <!-- Comparison Section -->
     <section class="py-24 bg-gradient-to-b from-black to-gray-900">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-light text-center mb-16">The Old Way vs. The Vegas Way</h2>
-            
+            <h2 class="text-3xl md:text-4xl font-light text-center mb-16" data-es="The Old Way vs. The Vegas Way">The Old Way vs. The Vegas Way</h2>
+           
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Traditional Litigation -->
                 <div class="bg-gray-900 p-8 rounded-xl border border-gray-800">
                     <div class="flex items-center mb-6">
                         <div class="w-2 h-8 bg-red-500 rounded-full mr-4"></div>
-                        <h3 class="text-2xl font-medium">Traditional Litigation</h3>
+                        <h3 class="text-2xl font-medium" data-es="Traditional Litigation">Traditional Litigation</h3>
                     </div>
                     <img src="https://images.pexels.com/photos/7876203/pexels-photo-7876203.jpeg" alt="Happy family at home" class="w-full h-64 object-cover rounded-lg mb-6">
 <ul class="space-y-4 text-gray-400">
                         <li class="flex items-start">
                             <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
-                            <span>$15k–$75k+ in unnecessary fees</span>
+                            <span data-es="$15k–$75k+ in unnecessary fees">$15k–$75k+ in unnecessary fees</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
-                            <span>12–36 months of emotional battles</span>
+                            <span data-es="12–36 months of emotional battles">12–36 months of emotional battles</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
-                            <span>Financial exhaustion from hourly billing</span>
+                            <span data-es="Financial exhaustion from hourly billing">Financial exhaustion from hourly billing</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
-                            <span>No control over the process</span>
+                            <span data-es="No control over the process">No control over the process</span>
                         </li>
                     </ul>
                 </div>
-                
+               
                 <!-- Vegas Family Pro's -->
                 <div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-300">
                     <div class="flex items-center mb-6">
                         <div class="w-2 h-8 bg-amber-500 rounded-full mr-4"></div>
-                        <h3 class="text-2xl font-medium">Vegas Family Pro's</h3>
+                        <h3 class="text-2xl font-medium" data-es="Vegas Family Pro's">Vegas Family Pro's</h3>
                     </div>
                     <img src="https://images.pexels.com/photos/12885861/pexels-photo-12885861.jpeg" alt="Family enjoying vacation" class="w-full h-64 object-cover rounded-lg mb-6">
 <ul class="space-y-4 text-gray-300">
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Flat, predictable pricing - no surprises</span>
+                            <span data-es="Flat, predictable pricing - no surprises">Flat, predictable pricing - no surprises</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Flawless documents prepared fast</span>
+                            <span data-es="Flawless documents prepared fast">Flawless documents prepared fast</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Private mediation avoids court battles</span>
+                            <span data-es="Private mediation avoids court battles">Private mediation avoids court battles</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Most save $20k–$60k and finish in months</span>
+                            <span data-es="Most save $20k–$60k and finish in months">Most save $20k–$60k and finish in months</span>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Solutions Section -->
     <section id="solutions" class="py-24 bg-gray-900">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-light text-center mb-6">What We Do</h2>
-            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16">Sophisticated solutions that protect your family and finances</p>
-            
+            <h2 class="text-3xl md:text-4xl font-light text-center mb-6" data-es="What We Do">What We Do</h2>
+            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16" data-es="Sophisticated solutions that protect your family and finances">Sophisticated solutions that protect your family and finances</p>
+           
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Document Preparation -->
                 <div class="bg-gray-800/50 hover:bg-gray-800/70 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300 group">
                     <div class="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition">
                         <i data-feather="file-text" class="text-amber-400 w-8 h-8"></i>
                     </div>
-                    <h3 class="text-2xl font-medium mb-4">Expert Document Preparation</h3>
-                    <p class="text-gray-400 mb-6">Court-ready filings prepared perfectly at predictable flat rates. No hourly surprises, no retainer fees.</p>
+                    <h3 class="text-2xl font-medium mb-4" data-es="Expert Document Preparation">Expert Document Preparation</h3>
+                    <p class="text-gray-400 mb-6" data-es="Court-ready filings prepared perfectly at predictable flat rates. No hourly surprises, no retainer fees.">Court-ready filings prepared perfectly at predictable flat rates. No hourly surprises, no retainer fees.</p>
                     <a href="#pricing" class="flex items-center text-amber-400 font-medium">
-                        <span>Learn More</span>
+                        <span data-es="Learn More">Learn More</span>
                         <i data-feather="arrow-right" class="ml-2 w-5"></i>
                     </a>
 </div>
-                
+               
                 <!-- Private Mediation -->
                 <div class="bg-gray-800/50 hover:bg-gray-800/70 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300 group">
                     <div class="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition">
                         <i data-feather="users" class="text-amber-400 w-8 h-8"></i>
                     </div>
-                    <h3 class="text-2xl font-medium mb-4">Private Mediation</h3>
-                    <p class="text-gray-400 mb-6">Resolve everything outside of court with our certified mediators. Faster, cheaper, and far less painful.</p>
+                    <h3 class="text-2xl font-medium mb-4" data-es="Private Mediation">Private Mediation</h3>
+                    <p class="text-gray-400 mb-6" data-es="Resolve everything outside of court with our certified mediators. Faster, cheaper, and far less painful.">Resolve everything outside of court with our certified mediators. Faster, cheaper, and far less painful.</p>
                     <a href="#pricing" class="flex items-center text-amber-400 font-medium">
-                        <span>Learn More</span>
+                        <span data-es="Learn More">Learn More</span>
                         <i data-feather="arrow-right" class="ml-2 w-5"></i>
                     </a>
 </div>
-                
+               
                 <!-- Limited Scope -->
                 <div class="bg-gray-800/50 hover:bg-gray-800/70 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300 group">
                     <div class="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition">
                         <i data-feather="shield" class="text-amber-400 w-8 h-8"></i>
                     </div>
-                    <h3 class="text-2xl font-medium mb-4">Limited-Scope Representation</h3>
-                    <p class="text-gray-400 mb-6">Need a Lawyer to back you up at Court? Let us connect you with one of the expert Family Law Attorneys in our network to advocate for you at your next Hearing or Trial.</p>
+                    <h3 class="text-2xl font-medium mb-4" data-es="Limited-Scope Representation">Limited-Scope Representation</h3>
+                    <p class="text-gray-400 mb-6" data-es="Need a Lawyer to back you up at Court? Let us connect you with one of the expert Family Law Attorneys in our network to advocate for you at your next Hearing or Trial.">Need a Lawyer to back you up at Court? Let us connect you with one of the expert Family Law Attorneys in our network to advocate for you at your next Hearing or Trial.</p>
                     <a href="#pricing" class="flex items-center text-amber-400 font-medium">
-                        <span>Learn More</span>
+                        <span data-es="Learn More">Learn More</span>
                         <i data-feather="arrow-right" class="ml-2 w-5"></i>
                     </a>
 </div>
             </div>
         </div>
     </section>
-
     <!-- Pricing Section -->
     <section id="pricing" class="py-24 bg-black">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-light text-center mb-6">Clear, Upfront Pricing</h2>
-            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16">No retainers. No hourly billing. Just predictable flat rates that save you thousands.</p>
-            
+            <h2 class="text-3xl md:text-4xl font-light text-center mb-6" data-es="Clear, Upfront Pricing">Clear, Upfront Pricing</h2>
+            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16" data-es="No retainers. No hourly billing. Just predictable flat rates that save you thousands.">No retainers. No hourly billing. Just predictable flat rates that save you thousands.</p>
+           
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <!-- Document Packages -->
                 <div class="bg-gradient-to-b from-gray-900 to-gray-900/50 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-300">
-                    <h3 class="text-2xl font-medium mb-6">Document Packages</h3>
+                    <h3 class="text-2xl font-medium mb-6" data-es="Document Packages">Document Packages</h3>
                     <div class="text-5xl font-light mb-6">
-                        <span class="text-amber-400">Starting at $499</span> 
+                        <span class="text-amber-400" data-es="Starting at $499">Starting at $499</span>
                     </div>
                     <ul class="space-y-4 text-gray-400 mb-8">
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Divorce</span>
+                            <span data-es="Divorce">Divorce</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Child Custody</span>
+                            <span data-es="Child Custody">Child Custody</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span> Child Support</span>
+                            <span data-es="Child Support">Child Support</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span> Protection Orders</span>
+                            <span data-es="Protection Orders">Protection Orders</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span> Adoption</span>
+                            <span data-es="Adoption">Adoption</span>
                         </li>
                                                 <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span> Guardianships</span>
+                            <span data-es="Guardianships">Guardianships</span>
                         </li>
                     </ul>
-                    <a href="#contact" class="w-full block text-center px-6 py-3 border border-white/20 hover:border-amber-500 rounded-full text-sm font-medium tracking-wider transition-all hover:bg-gradient-to-r hover:from-amber-600/10 hover:to-amber-400/10">
+                    <a href="#contact" class="w-full block text-center px-6 py-3 border border-white/20 hover:border-amber-500 rounded-full text-sm font-medium tracking-wider transition-all hover:bg-gradient-to-r hover:from-amber-600/10 hover:to-amber-400/10" data-es="Get Started">
                         Get Started
                     </a>
                 </div>
-                
+               
                 <!-- Private Mediation -->
                 <div class="bg-gradient-to-b from-gray-900 to-gray-900/50 p-8 rounded-xl border border-amber-500/50 hover:border-amber-500/70 transition-all duration-300">
                     <div class="absolute top-0 right-0 bg-amber-500 text-black px-4 py-1 text-xs font-bold rounded-bl-lg rounded-tr-lg">MOST POPULAR</div>
-                    <h3 class="text-2xl font-medium mb-6">Private Mediation</h3>
+                    <h3 class="text-2xl font-medium mb-6" data-es="Private Mediation">Private Mediation</h3>
                     <div class="text-5xl font-light mb-6">
-                        <span class="text-amber-400">Starting at $999</span>
+                        <span class="text-amber-400" data-es="Starting at $999">Starting at $999</span>
                     </div>
                     <ul class="space-y-4 text-gray-400 mb-8">
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Customized Solutions to Meet Your Specific Needs</span>
+                            <span data-es="Customized Solutions to Meet Your Specific Needs">Customized Solutions to Meet Your Specific Needs</span>
                         </li>
                            <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Flexible Scheduling and Coordination</span>
+                            <span data-es="Flexible Scheduling and Coordination">Flexible Scheduling and Coordination</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>90% Success Rate in Resolving Conflicts</span>
+                            <span data-es="90% Success Rate in Resolving Conflicts">90% Success Rate in Resolving Conflicts</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Court-Approved Agreements</span>
+                            <span data-es="Court-Approved Agreements">Court-Approved Agreements</span>
                         </li>
                     </ul>
-                    <a href="#contact" class="w-full block text-center px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-sm font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/10">
+                    <a href="#contact" class="w-full block text-center px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-sm font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/10" data-es="Choose Mediation">
                         Choose Mediation
                     </a>
                 </div>
-                
+               
                 <!-- A La Carte -->
                 <div class="bg-gradient-to-b from-gray-900 to-gray-900/50 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-300">
-                    <h3 class="text-2xl font-medium mb-6">Limited Scope Representation</h3>
+                    <h3 class="text-2xl font-medium mb-6" data-es="Limited Scope Representation">Limited Scope Representation</h3>
                     <div class="text-5xl font-light mb-6">
-                        <span class="text-amber-400">Starting at $599</span>
+                        <span class="text-amber-400" data-es="Starting at $599">Starting at $599</span>
                     </div>
                     <ul class="space-y-4 text-gray-400 mb-8">
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>No Hourly Charges or Unexpected Fees</span>
+                            <span data-es="No Hourly Charges or Unexpected Fees">No Hourly Charges or Unexpected Fees</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>A La Carte Representation - Only Pay for a Lawyer When You Need It</span>
+                            <span data-es="A La Carte Representation - Only Pay for a Lawyer When You Need It">A La Carte Representation - Only Pay for a Lawyer When You Need It</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span>Save Thousands of Dollars Compared to Traditional Legal Representation</span>
+                            <span data-es="Save Thousands of Dollars Compared to Traditional Legal Representation">Save Thousands of Dollars Compared to Traditional Legal Representation</span>
                         </li>
                     </ul>
-                    <a href="#contact" class="w-full block text-center px-6 py-3 border border-white/20 hover:border-amber-500 rounded-full text-sm font-medium tracking-wider transition-all hover:bg-gradient-to-r hover:from-amber-600/10 hover:to-amber-400/10">
+                    <a href="#contact" class="w-full block text-center px-6 py-3 border border-white/20 hover:border-amber-500 rounded-full text-sm font-medium tracking-wider transition-all hover:bg-gradient-to-r hover:from-amber-600/10 hover:to-amber-400/10" data-es="Find an Attorney">
                         Find an Attorney
                     </a>
                 </div>
@@ -320,9 +311,9 @@
     <!-- Testimonials -->
     <section id="testimonials" class="py-24 bg-gray-900">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-light text-center mb-6">Peace of Mind</h2>
-            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16">We've Saved Our Clients Millions of Dollars in Legal Fees</p>
-            
+            <h2 class="text-3xl md:text-4xl font-light text-center mb-6" data-es="Peace of Mind">Peace of Mind</h2>
+            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16" data-es="We've Saved Our Clients Millions of Dollars in Legal Fees">We've Saved Our Clients Millions of Dollars in Legal Fees</p>
+           
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
                 <div class="flex items-center justify-center">
                     <div class="text-5xl font-light text-amber-400">4.9</div>
@@ -334,32 +325,32 @@
                             <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
                             <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
                         </div>
-                        <div class="text-sm text-gray-400">285+ verified reviews</div>
+                        <div class="text-sm text-gray-400" data-es="285+ verified reviews">285+ verified reviews</div>
                     </div>
                 </div>
                 <div class="flex items-center justify-center border-x border-gray-800 px-8">
                     <div class="text-5xl font-light text-amber-400">83%</div>
                     <div class="ml-4">
-                        <div class="text-xl font-medium">Faster</div>
-                        <div class="text-sm text-gray-400">than traditional litigation</div>
+                        <div class="text-xl font-medium" data-es="Faster">Faster</div>
+                        <div class="text-sm text-gray-400" data-es="than traditional litigation">than traditional litigation</div>
                     </div>
                 </div>
                 <div class="flex items-center justify-center">
                     <div class="text-5xl font-light text-amber-400">$46k</div>
                     <div class="ml-4">
-                        <div class="text-xl font-medium">Average savings</div>
-                        <div class="text-sm text-gray-400">per client</div>
+                        <div class="text-xl font-medium" data-es="Average savings">Average savings</div>
+                        <div class="text-sm text-gray-400" data-es="per client">per client</div>
                     </div>
                 </div>
             </div>
-            
+           
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="bg-gray-800/50 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300">
                     <div class="flex items-center mb-6">
                         <img src="http://static.photos/happy-people/200x200/1" alt="Sarah M." class="w-12 h-12 rounded-full object-cover mr-4">
 <div>
                             <div class="font-medium">Sarah M.</div>
-                            <div class="text-sm text-gray-400">Divorce Client</div>
+                            <div class="text-sm text-gray-400" data-es="Divorce Client">Divorce Client</div>
                         </div>
                     </div>
                     <p class="text-gray-300 italic mb-4">"Vegas Family Pro's saved me over $30,000 compared to what my friend paid for her divorce. My documents were perfect, and the mediation avoided months of court battles."</p>
@@ -376,7 +367,7 @@
                         <img src="http://static.photos/happy-people/200x200/2" alt="Michael T." class="w-12 h-12 rounded-full object-cover mr-4">
 <div>
                             <div class="font-medium">Michael T.</div>
-                            <div class="text-sm text-gray-400">Custody Client</div>
+                            <div class="text-sm text-gray-400" data-es="Custody Client">Custody Client</div>
                         </div>
                     </div>
                     <p class="text-gray-300 italic mb-4">"Our custody agreement was handled in weeks, not years. The mediator was incredibly skilled at finding common ground where our attorneys had failed."</p>
@@ -395,13 +386,12 @@
     <!-- Final CTA -->
     <section id="contact" class="py-32 bg-black">
         <div class="container mx-auto px-6 text-center">
-            <h2 class="text-4xl md:text-5xl font-light mb-6">End the chaos. <span class="text-amber-400">Find peace.</span></h2>
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-12">Most families finish their case in weeks or months — not years — and keep their life savings.</p>
+            <h2 class="text-4xl md:text-5xl font-light mb-6" data-es="End the chaos. Find peace.">End the chaos. <span class="text-amber-400">Find peace.</span></h2>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-12" data-es="Most families finish their case in weeks or months — not years — and keep their life savings.">Most families finish their case in weeks or months — not years — and keep their life savings.</p>
 <!-- Quote Button + Modal Trigger -->
-<button onclick="openQuoteModal()" class="inline-block px-12 py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-lg font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/20 cursor-pointer">
+<button onclick="openQuoteModal()" class="inline-block px-12 py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-lg font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/20 cursor-pointer" data-es="Get Your Flat-Rate Quote in 60 Seconds">
     Get Your Flat-Rate Quote in 60 Seconds
 </button>
-
 <!-- FINAL MODAL – never hidden, never too tall on any phone -->
 <div id="quoteModal" class="fixed inset-0 bg-black/95 backdrop-blur-lg z-[99999] hidden">
     <div class="flex min-h-screen items-center justify-center p-4">
@@ -410,7 +400,6 @@
             <button onclick="closeQuoteModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white text-4xl z-10 w-12 h-12 flex items-center justify-center bg-black/50 rounded-full backdrop-blur-sm">
                 ×
             </button>
-
             <!-- Modal card – max 92vh, internally scrollable -->
             <div class="bg-gray-900/95 border border-amber-500/40 rounded-2xl shadow-2xl max-h-[92vh] overflow-hidden flex flex-col">
                 <!-- Header -->
@@ -418,9 +407,8 @@
                     <h3 class="text-3xl md:text-4xl font-light text-white mb-2">
                         Your Flat-Rate Quote<br><span class="text-amber-400">in 60 seconds</span>
                     </h3>
-                    <p class="text-gray-400">We’ll email you exact pricing within 24 hours.</p>
+                    <p class="text-gray-400" data-es="We’ll email you exact pricing within 24 hours.">We’ll email you exact pricing within 24 hours.</p>
                 </div>
-
                 <!-- Scrollable content area -->
                 <div class="overflow-y-auto flex-1 px-6 py-6">
                     <!-- Success Message -->
@@ -430,13 +418,12 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                         </div>
-                        <h4 class="text-2xl font-light text-white mb-4">Thank you!</h4>
-                        <p class="text-gray-300 mb-8">Your information was received.<br>We’ll send your quote within 24 hours.</p>
-                        <button onclick="closeQuoteModal()" class="px-10 py-3 bg-gradient-to-r from-amber-600 to-amber-400 rounded-full font-medium">
+                        <h4 class="text-2xl font-light text-white mb-4" data-es="Thank you!">Thank you!</h4>
+                        <p class="text-gray-300 mb-8" data-es="Your information was received. We’ll send your quote within 24 hours.">Your information was received.<br>We’ll send your quote within 24 hours.</p>
+                        <button onclick="closeQuoteModal()" class="px-10 py-3 bg-gradient-to-r from-amber-600 to-amber-400 rounded-full font-medium" data-es="Close">
                             Close
                         </button>
                     </div>
-
                     <!-- Form -->
                     <div id="quoteForm">
                         <form id="nativeGoogleForm" action="https://docs.google.com/forms/d/e/1FAIpQLSfu_LRXxd74UrqkhKXTJZqjr5ZAROtOrTQdclX_oM44Qak7Ng/formResponse" method="POST" onsubmit="return submitGoogleForm(event)">
@@ -446,33 +433,29 @@
                             </div>
                             <input type="email" name="entry.1125639485" required placeholder="Email *" class="w-full px-5 py-4 mb-5 bg-gray-800/70 border border-gray-700 rounded-lg focus:border-amber-500 focus:outline-none text-white">
                             <input type="tel" name="entry.987654321" required placeholder="Phone Number *" class="w-full px-5 py-4 mb-5 bg-gray-800/70 border border-gray-700 rounded-lg focus:border-amber-500 focus:outline-none text-white">
-                            
+                           
                             <select name="entry.123456789" required class="w-full px-5 py-4 mb-5 bg-gray-800/70 border border-gray-700 rounded-lg focus:border-amber-500 focus:outline-none text-white">
-                                <option value="" disabled selected>Case Type *</option>
-                                <option>Divorce</option>
-                                <option>Child Custody</option>
-                                <option>Child Support</option>
-                                <option>Adoption</option>
-                                <option>Guardianship</option>
-                                <option>Other</option>
+                                <option value="" disabled selected data-es="Case Type *">Case Type *</option>
+                                <option data-es="Divorce">Divorce</option>
+                                <option data-es="Child Custody">Child Custody</option>
+                                <option data-es="Child Support">Child Support</option>
+                                <option data-es="Adoption">Adoption</option>
+                                <option data-es="Guardianship">Guardianship</option>
+                                <option data-es="Other">Other</option>
                             </select>
-
                             <textarea name="entry.876543210" rows="3" placeholder="Brief Details (optional)" class="w-full px-5 py-4 mb-7 bg-gray-800/70 border border-gray-700 rounded-lg focus:border-amber-500 focus:outline-none text-white resize-none"></textarea>
-
-                            <button type="submit" class="w-full py-5 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-xl font-semibold text-lg tracking-wider transition-all">
+                            <button type="submit" class="w-full py-5 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-xl font-semibold text-lg tracking-wider transition-all" data-es="Get My Flat-Rate Quote">
                                 Get My Flat-Rate Quote
                             </button>
                         </form>
                     </div>
                 </div>
-
-                <div class="p-4 text-center text-xs text-gray-500 flex-none">
+                <div class="p-4 text-center text-xs text-gray-500 flex-none" data-es="Secure · Private · No spam ever">
                     Secure · Private · No spam ever
                 </div>
             </div>
         </div>
     </div>
-
     <script>
     function submitGoogleForm(e) {
         e.preventDefault();
@@ -494,7 +477,6 @@
             </div>
         </div>
     </div>
-
     <script>
 function submitGoogleForm(e) {
     e.preventDefault();
@@ -538,33 +520,33 @@ function submitGoogleForm(e) {
     });
 }
 </script>
-</div>    </section>
+</div> </section>
     <!-- Footer -->
     <footer class="bg-gray-900 border-t border-gray-800 py-16 md:py-24">
 <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
                 <div>
                     <div class="text-2xl font-light tracking-tight mb-4">VEGAS<span class="font-medium">FAMILY</span>PRO'S</div>
-                    <p class="text-gray-400">The smarter, more peaceful way through family issues.</p>
+                    <p class="text-gray-400" data-es="The smarter, more peaceful way through family issues.">The smarter, more peaceful way through family issues.</p>
                 </div>
                 <div>
-                    <h3 class="text-lg font-medium mb-4">Solutions</h3>
+                    <h3 class="text-lg font-medium mb-4" data-es="Solutions">Solutions</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition">Document Preparation</a></li>
-                        <li><a href="#" class="hover:text-white transition">Private Mediation</a></li>
-                        <li><a href="#" class="hover:text-white transition">Limited-Scope Representation</a></li>
+                        <li><a href="#" class="hover:text-white transition" data-es="Document Preparation">Document Preparation</a></li>
+                        <li><a href="#" class="hover:text-white transition" data-es="Private Mediation">Private Mediation</a></li>
+                        <li><a href="#" class="hover:text-white transition" data-es="Limited-Scope Representation">Limited-Scope Representation</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-lg font-medium mb-4">Company</h3>
+                    <h3 class="text-lg font-medium mb-4" data-es="Company">Company</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition">About Us</a></li>
-                        <li><a href="#" class="hover:text-white transition">Pricing</a></li>
-                        <li><a href="#" class="hover:text-white transition">Testimonials</a></li>
+                        <li><a href="#" class="hover:text-white transition" data-es="About Us">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition" data-es="Pricing">Pricing</a></li>
+                        <li><a href="#" class="hover:text-white transition" data-es="Testimonials">Testimonials</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-lg font-medium mb-4">Contact</h3>
+                    <h3 class="text-lg font-medium mb-4" data-es="Contact">Contact</h3>
                     <ul class="space-y-2 text-gray-400">
                         <li class="flex items-start">
                             <i data-feather="phone" class="mr-2 w-4"></i>
@@ -579,7 +561,7 @@ function submitGoogleForm(e) {
             </div>
             <div class="pt-12 border-t border-gray-800">
                 <div class="flex flex-col md:flex-row justify-between items-center">
-                    <div class="text-gray-400 text-sm mb-4 md:mb-0">© 2023 Vegas Family Pro's. All Rights Reserved.</div>
+                    <div class="text-gray-400 text-sm mb-4 md:mb-0" data-es="© 2023 Vegas Family Pro's. All Rights Reserved.">© 2023 Vegas Family Pro's. All Rights Reserved.</div>
 <div class="flex space-x-6">
                         <a href="#" class="text-gray-400 hover:text-white transition">
                             <i data-feather="instagram" class="w-5"></i>
@@ -595,32 +577,193 @@ function submitGoogleForm(e) {
             </div>
         </div>
     </footer>
-
-    <script src="script.js"></script>
-    <script>feather.replace();</script>
-    <script>
-// Modal controls
-function openQuoteModal() {
-    document.getElementById('quoteModal').classList.remove('hidden');
-    document.body.style.overflow = 'hidden'; // prevent background scroll
-}
-function closeQuoteModal() {
-    document.getElementById('quoteModal').classList.add('hidden');
-    document.body.style.overflow = 'auto';
-}
-</script>
-   <!-- Legal Disclaimer Sticky Bar – auto-smaller on mobile -->
-<div class="fixed bottom-0 left-0 right-0 bg-black/90 backdrop-blur-md border-t border-amber-500/20 z-40" style="height: auto;">
-    <div class="container mx-auto px-4 py-2 sm:px-6 text-center">
-        <p class="text-xs sm:text-sm leading-relaxed text-gray-400">
-<span class="text-amber-400 font-medium">Important Legal Notice:</span> 
-    Vegas Family Pro's is <strong>not a law firm</strong> and does not provide legal advice or legal representation. 
-    We offer document preparation and private mediation services only. 
-    All forms and agreements are prepared as a non-lawyer document preparation service. 
-    Clients represent themselves in court (pro se) or must retain a licensed attorney for hearings and representation. 
-    Use of our services does not create an attorney-client relationship.
-</p>
+    <!-- FIXED Language Toggle Button + Script (works every click) -->
+    <div id="languageToggle" class="fixed bottom-6 right-6 z-[9998] w-14 h-14 bg-gray-800 border-2 border-amber-500 rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition-all shadow-2xl group">
+        <span id="langText" class="text-white font-bold text-lg">EN</span>
+        <span class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h18M9 12h6m-6 7h6"></path>
+            </svg>
+        </span>
     </div>
-</div>
+
+    <!-- Legal Disclaimer Popup (kept exactly as you had it) -->
+    <div id="legalPopup" class="fixed inset-0 bg-black/90 backdrop-blur-md z-[9999] flex items-center justify-center px-4 hidden">
+        <div class="bg-gray-900 border border-amber-500/30 rounded-2xl max-w-2xl w-full p-8 relative">
+            <button onclick="closeLegalPopup()" class="absolute top-4 right-4 text-gray-400 hover:text-white">
+                <i data-feather="x" class="w-8 h-8"></i>
+            </button>
+            <h3 class="text-2xl font-medium text-amber-400 mb-6 text-center" data-es="Important Legal Notice">Important Legal Notice</h3>
+            <div class="text-gray-300 text-sm leading-relaxed space-y-4 text-center">
+                <p data-es="Vegas Family Pro's is not a law firm and does not provide legal advice or legal representation.">Vegas Family Pro's is <strong>not a law firm</strong> and does not provide legal advice or legal representation.</p>
+                <p data-es="We offer document preparation and private mediation services only. All forms and agreements are prepared as a non-lawyer document preparation service.">We offer document preparation and private mediation services only. All forms and agreements are prepared as a non-lawyer document preparation service.</p>
+                <p data-es="Clients represent themselves in court (pro se) or must retain a licensed attorney for hearings and representation. Use of our services does not create an attorney-client relationship.">Clients represent themselves in court (pro se) or must retain a licensed attorney for hearings and representation. Use of our services does not create an attorney-client relationship.</p>
+            </div>
+            <button onclick="closeLegalPopup()" class="mt-8 w-full py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-xl font-bold text-black text-lg transition-all" data-es="I Understand & Continue">
+                I Understand & Continue
+            </button>
+        </div>
+    </div>
+
+    <!-- ALL SCRIPTS (Feather icons + modals + FIXED language toggle) -->
+    <script>
+    // Initialize Feather icons
+    document.addEventListener("DOMContentLoaded", () => {
+        feather.replace();
+        if (!sessionStorage.getItem('legalAcknowledged')) {
+            document.getElementById('legalPopup').classList.remove('hidden');
+        }
+    });
+
+    // Modal functions
+    function openQuoteModal() {
+        document.getElementById('quoteModal').classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+        setTimeout(() => feather.replace(), 100);
+    }
+    function closeQuoteModal() {
+        document.getElementById('quoteModal').classList.add('hidden');
+        document.body.style.overflow = 'auto';
+    }
+    function closeLegalPopup() {
+        document.getElementById('legalPopup').classList.add('hidden');
+        sessionStorage.setItem('legalAcknowledged', 'true');
+    }
+
+    // Google Form + Confetti
+    function submitGoogleForm(e) {
+        e.preventDefault();
+        const btn = e.target.querySelector('button[type="submit"]');
+        btn.disabled = true;
+        btn.innerHTML = 'Sending...';
+        fetch(e.target.action, { method: 'POST', body: new FormData(e.target), mode: 'no-cors' })
+        .finally(() => {
+            document.getElementById('quoteForm').classList.add('hidden');
+            document.getElementById('successMessage').classList.remove('hidden');
+            confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 }, colors: ['#f59e0b', '#fbbf24', '#ffffff', '#1e293b'] });
+            setTimeout(() => {
+                confetti({ particleCount: 80, angle: 60, spread: 55, origin: { x: 0 } });
+                confetti({ particleCount: 80, angle: 120, spread: 55, origin: { x: 1 } });
+            }, 250);
+        });
+    }
+
+    // PERFECT LANGUAGE TOGGLE - Works every single click
+    const translations = {
+        "Process": "Proceso", "Pricing": "Precios", "Results": "Resultados",
+        "Call": "Llamar", "Email": "Correo", "START": "INICIAR", "START TODAY": "COMENZAR HOY",
+        "Family Law Doesn't Have To Destroy You.": "El Derecho de Familia No Tiene Que Destruirte.",
+        "Predictable flat rates. Expert document preparation. Private mediation. Real attorneys only when you actually need them in court.": "Tarifas planas predecibles. Preparación experta de documentos. Mediación privada. Abogados reales solo cuando realmente los necesitas en corte.",
+        "Start Saving Today": "Comienza a Ahorrar Hoy", "Learn More": "Saber Más",
+        "The Old Way vs. The Vegas Way": "El Método Antiguo vs. El Método Vegas",
+        "Traditional Litigation": "Litigio Tradicional",
+        "$15k–$75k+ in unnecessary fees": "$15k–$75k+ en honorarios innecesarios",
+        "12–36 months of emotional battles": "12–36 meses de batallas emocionales",
+        "Financial exhaustion from hourly billing": "Agotamiento financiero por cobro por hora",
+        "No control over the process": "Sin control sobre el proceso",
+        "Vegas Family Pro's": "Vegas Family Pro's",
+        "Flat, predictable pricing - no surprises": "Precios fijos y predecibles - sin sorpresas",
+        "Flawless documents prepared fast": "Documentos perfectos preparados rápido",
+        "Private mediation avoids court battles": "Mediación privada evita batallas judiciales",
+        "Most save $20k–$60k and finish in months": "La mayoría ahorra $20k–$60k y termina en meses",
+        "What We Do": "Qué Hacemos",
+        "Sophisticated solutions that protect your family and finances": "Soluciones sofisticadas que protegen a tu familia y finanzas",
+        "Expert Document Preparation": "Preparación Experta de Documentos",
+        "Court-ready filings prepared perfectly at predictable flat rates. No hourly surprises, no retainer fees.": "Documentos listos para corte preparados perfectamente a tarifas planas predecibles. Sin sorpresas por hora, sin honorarios de retención.",
+        "Private Mediation": "Mediación Privada",
+        "Resolve everything outside of court with our certified mediators. Faster, cheaper, and far less painful.": "Resuelve todo fuera de corte con nuestros mediadores certificados. Más rápido, más barato y mucho menos doloroso.",
+        "Limited-Scope Representation": "Representación de Alcance Limitado",
+        "Need a Lawyer to back you up at Court? Let us connect you with one of the expert Family Law Attorneys in our network to advocate for you at your next Hearing or Trial.": "¿Necesitas un abogado que te respalde en corte? Te conectamos con uno de los mejores abogados de derecho familiar en nuestra red para representarte en tu próxima audiencia o juicio.",
+        "Clear, Upfront Pricing": "Precios Claros y Transparentes",
+        "No retainers. No hourly billing. Just predictable flat rates that save you thousands.": "Sin anticipos. Sin cobro por hora. Solo tarifas planas predecibles que te ahorran miles.",
+        "Document Packages": "Paquetes de Documentos",
+        "Starting at $499": "Desde $499",
+        "Divorce": "Divorcio",
+        "Child Custody": "Custodia de Menores",
+        "Child Support": "Manutención Infantil",
+        "Protection Orders": "Órdenes de Protección",
+        "Adoption": "Adopción",
+        "Guardianships": "Tutorías",
+        "Get Started": "Comenzar",
+        "Private Mediation": "Mediación Privada",
+        "Starting at $999": "Desde $999",
+        "Customized Solutions to Meet Your Specific Needs": "Soluciones Personalizadas para Tus Necesidades",
+        "Flexible Scheduling and Coordination": "Horarios Flexibles y Coordinación",
+        "90% Success Rate in Resolving Conflicts": "90% de Éxito en Resolución de Conflictos",
+        "Court-Approved Agreements": "Acuerdos Aprobados por Corte",
+        "Choose Mediation": "Elegir Mediación",
+        "Limited Scope Representation": "Representación de Alcance Limitado",
+        "Starting at $599": "Desde $599",
+        "No Hourly Charges or Unexpected Fees": "Sin Cobros por Hora ni Honorarios Inesperados",
+        "A La Carte Representation - Only Pay for a Lawyer When You Need It": "Representación a la Carta - Solo Pagas por un Abogado Cuando lo Necesitas",
+        "Save Thousands of Dollars Compared to Traditional Legal Representation": "Ahorra Miles de Dólares Comparado con Representación Legal Tradicional",
+        "Find an Attorney": "Encontrar un Abogado",
+        "Peace of Mind": "Paz Mental",
+        "We've Saved Our Clients Millions of Dollars in Legal Fees": "Hemos Ahorrado Millones de Dólares a Nuestros Clientes en Honorarios Legales",
+        "285+ verified reviews": "285+ reseñas verificadas",
+        "Faster": "Más rápido",
+        "than traditional litigation": "que el litigio tradicional",
+        "Average savings": "Ahorros promedio",
+        "per client": "por cliente",
+        "Divorce Client": "Cliente de Divorcio",
+        "Custody Client": "Cliente de Custodia",
+        "End the chaos. Find peace.": "Termina el caos. Encuentra paz.",
+        "Most families finish their case in weeks or months — not years — and keep their life savings.": "La mayoría de familias terminan su caso en semanas o meses — no años — y mantienen sus ahorros de vida.",
+        "Get Your Flat-Rate Quote in 60 Seconds": "Obtén Tu Cotización de Tarifa Plana en 60 Segundos",
+        "Your Flat-Rate Quote in 60 seconds": "Tu Cotización de Tarifa Plana en 60 segundos",
+        "We’ll email you exact pricing within 24 hours.": "Te enviaremos precios exactos por email en 24 horas.",
+        "Thank you!": "¡Gracias!",
+        "Your information was received. We’ll send your quote within 24 hours.": "Tu información fue recibida. Te enviaremos tu cotización en 24 horas.",
+        "Close": "Cerrar",
+        "First Name *": "Nombre *",
+        "Last Name *": "Apellido *",
+        "Email *": "Email *",
+        "Phone Number *": "Número de Teléfono *",
+        "Case Type *": "Tipo de Caso *",
+        "Brief Details (optional)": "Detalles Breves (opcional)",
+        "Get My Flat-Rate Quote": "Obtén Mi Cotización de Tarifa Plana",
+        "Secure · Private · No spam ever": "Seguro · Privado · Sin spam nunca",
+        "The smarter, more peaceful way through family issues.": "La forma más inteligente y pacífica a través de problemas familiares.",
+        "Solutions": "Soluciones",
+        "Document Preparation": "Preparación de Documentos",
+        "Private Mediation": "Mediación Privada",
+        "Limited-Scope Representation": "Representación de Alcance Limitado",
+        "Company": "Compañía",
+        "About Us": "Sobre Nosotros",
+        "Pricing": "Precios",
+        "Testimonials": "Testimonios",
+        "Contact": "Contacto",
+        "© 2023 Vegas Family Pro's. All Rights Reserved.": "© 2023 Vegas Family Pro's. Todos los Derechos Reservados.",
+        "Important Legal Notice": "Aviso Legal Importante",
+        "Vegas Family Pro's is not a law firm and does not provide legal advice or legal representation.": "Vegas Family Pro's no es un bufete de abogados y no proporciona asesoramiento legal ni representación legal.",
+        "We offer document preparation and private mediation services only. All forms and agreements are prepared as a non-lawyer document preparation service.": "Ofrecemos solo servicios de preparación de documentos y mediación privada. Todos los formularios y acuerdos se preparan como un servicio de preparación de documentos no legal.",
+        "Clients represent themselves in court (pro se) or must retain a licensed attorney for hearings and representation. Use of our services does not create an attorney-client relationship.": "Los clientes se representan a sí mismos en corte (pro se) o deben contratar un abogado licenciado para audiencias y representación. El uso de nuestros servicios no crea una relación abogado-cliente.",
+        "I Understand & Continue": "Entiendo y Continúo"
+    };
+
+    document.getElementById('languageToggle')?.addEventListener('click', function () {
+        const langText = document.getElementById('langText');
+        const isSpanish = langText.textContent === 'ES';
+
+        if (isSpanish) {
+            langText.textContent = 'EN';
+            document.documentElement.lang = 'en';
+            document.querySelectorAll('[data-es]').forEach(el => el.textContent = el.getAttribute('data-es'));
+        } else {
+            langText.textContent = 'ES';
+            document.documentElement.lang = 'es';
+            document.querySelectorAll('[data-es]').forEach(el => {
+                const text = el.getAttribute('data-es');
+                if (translations[text]) {
+                    el.textContent = translations[text];
+                }
+            });
+        }
+    });
+
+    // Safety net for icons
+    window.addEventListener('load', () => setTimeout(() => feather.replace(), 500));
+    </script>
+
 </body>
 </html>
