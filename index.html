@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vegas Family Pro's offers premium family law solutions in Las Vegas, including document preparation, private mediation, and limited-scope representation. Save thousands with flat-rate pricing and avoid lengthy court battles.">
+    <meta name="keywords" content="family law Las Vegas, divorce mediation, child custody documents, flat rate legal services, private mediation Nevada, limited scope attorney, affordable family law">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Vegas Family Pro's | Premium Family Law Solutions">
+    <meta property="og:description" content="Expert document preparation, private mediation, and limited-scope representation for family law matters in Las Vegas. Predictable flat rates to save you time and money.">
+    <meta property="og:image" content="https://vegasfamilypros.com/og-image.jpg"> <!-- Replace with actual OG image URL -->
+    <meta property="og:url" content="https://vegasfamilypros.com/">
+    <meta property="og:type" content="website">
     <title>Vegas Family Pro's | Premium Family Law Solutions</title>
+    <link rel="canonical" href="https://vegasfamilypros.com/">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script> <!-- Kept one feather icons source -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     </style>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 </head>
 <body class="bg-black font-['Inter'] text-white antialiased overflow-x-hidden">
- 
-<!-- FINAL Header – "Call" on mobile (tappable), full number on desktop -->
+
+<!-- Header -->
 <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-gradient-to-b from-black/80 via-black/60 to-transparent backdrop-blur-md">
     <div class="container mx-auto px-6">
         <div class="flex items-center justify-between h-16 lg:h-20">
@@ -55,347 +63,323 @@
         </div>
     </div>
 </header>
-    <!-- Hero Section -->
-    <section class="min-h-screen flex items-center relative overflow-hidden">
-        <div class="absolute inset-0 bg-black/40 z-10"></div>
-        <img src="https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg" alt="Happy luxury family" class="absolute inset-0 w-full h-full object-cover object-center">
-<div class="container mx-auto px-6 relative z-20 pt-24">
-            <div class="max-w-4xl">
-                <h1 class="text-5xl md:text-7xl font-light leading-tight mb-6" data-es="Family Law Doesn't Have To Destroy You.">
-                    Family Law Doesn't <br>Have To Destroy You.
-                </h1>
-                <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl" data-es="Predictable flat rates. Expert document preparation. Private mediation. Real attorneys only when you actually need them in court.">
-                    Predictable flat rates. Expert document preparation. Private mediation. Real attorneys only when you actually need them in court.
-                </p>
-                <div class="flex space-x-4">
-                    <a href="#contact" class="px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-lg font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/20" data-es="Start Saving Today">
-                        Start Saving Today
-                    </a>
-                    <a href="#solutions" class="px-8 py-4 border border-white/20 hover:border-white/40 rounded-full text-lg font-medium tracking-wider transition-all hover:bg-white/5" data-es="Learn More">
-                        Learn More
-                    </a>
-                </div>
+
+<!-- Hero Section -->
+<section class="min-h-screen flex items-center relative overflow-hidden">
+    <div class="absolute inset-0 bg-black/40 z-10"></div>
+    <img src="https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg" alt="Happy luxury family in a peaceful setting" class="absolute inset-0 w-full h-full object-cover object-center" loading="eager">
+    <div class="container mx-auto px-6 relative z-20 pt-24">
+        <div class="max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-light leading-tight mb-6" data-es="Family Law Doesn't Have To Destroy You.">
+                Family Law Doesn't <br>Have To Destroy You.
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl" data-es="Predictable flat rates. Expert document preparation. Private mediation. Real attorneys only when you actually need them in court.">
+                Predictable flat rates. Expert document preparation. Private mediation. Real attorneys only when you actually need them in court.
+            </p>
+            <div class="flex space-x-4">
+                <a href="#contact" class="px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-lg font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/20" data-es="Start Saving Today">
+                    Start Saving Today
+                </a>
+                <a href="#solutions" class="px-8 py-4 border border-white/20 hover:border-white/40 rounded-full text-lg font-medium tracking-wider transition-all hover:bg-white/5" data-es="Learn More">
+                    Learn More
+                </a>
             </div>
         </div>
-    </section>
-    <!-- Modal JavaScript -->
-    <script>
-    function openQuoteModal() {
-        document.getElementById('quoteModal').classList.remove('hidden');
-        document.body.style.overflow = 'hidden';
-    }
-    function closeQuoteModal() {
-        document.getElementById('quoteModal').classList.add('hidden');
-        document.body.style.overflow = 'auto';
-    }
-    document.getElementById('quoteModal').addEventListener('click', function(e) {
-        if (e.target === this) closeQuoteModal();
-    });
-    // Re-run feather icons after modal opens (fixes the X icon)
-    document.getElementById('quoteModal').addEventListener('click', function() {
-        setTimeout(() => feather.replace(), 100);
-    });
-    </script>
+    </div>
+</section>
+
 <!-- Comparison Section -->
-    <section class="py-24 bg-gradient-to-b from-black to-gray-900">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-light text-center mb-16" data-es="The Old Way vs. The Vegas Way">The Old Way vs. The Vegas Way</h2>
-           
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Traditional Litigation -->
-                <div class="bg-gray-900 p-8 rounded-xl border border-gray-800">
-                    <div class="flex items-center mb-6">
-                        <div class="w-2 h-8 bg-red-500 rounded-full mr-4"></div>
-                        <h3 class="text-2xl font-medium" data-es="Traditional Litigation">Traditional Litigation</h3>
-                    </div>
-                    <img src="https://images.pexels.com/photos/7876203/pexels-photo-7876203.jpeg" alt="Happy family at home" class="w-full h-64 object-cover rounded-lg mb-6">
-<ul class="space-y-4 text-gray-400">
-                        <li class="flex items-start">
-                            <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="$15k–$75k+ in unnecessary fees">$15k–$75k+ in unnecessary fees</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="12–36 months of emotional battles">12–36 months of emotional battles</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Financial exhaustion from hourly billing">Financial exhaustion from hourly billing</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="No control over the process">No control over the process</span>
-                        </li>
-                    </ul>
+<section class="py-24 bg-gradient-to-b from-black to-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-light text-center mb-16" data-es="The Old Way vs. The Vegas Way">The Old Way vs. The Vegas Way</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Traditional Litigation -->
+            <div class="bg-gray-900 p-8 rounded-xl border border-gray-800">
+                <div class="flex items-center mb-6">
+                    <div class="w-2 h-8 bg-red-500 rounded-full mr-4"></div>
+                    <h3 class="text-2xl font-medium" data-es="Traditional Litigation">Traditional Litigation</h3>
                 </div>
-               
-                <!-- Vegas Family Pro's -->
-                <div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-300">
-                    <div class="flex items-center mb-6">
-                        <div class="w-2 h-8 bg-amber-500 rounded-full mr-4"></div>
-                        <h3 class="text-2xl font-medium" data-es="Vegas Family Pro's">Vegas Family Pro's</h3>
-                    </div>
-                    <img src="https://images.pexels.com/photos/12885861/pexels-photo-12885861.jpeg" alt="Family enjoying vacation" class="w-full h-64 object-cover rounded-lg mb-6">
-<ul class="space-y-4 text-gray-300">
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Flat, predictable pricing - no surprises">Flat, predictable pricing - no surprises</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Flawless documents prepared fast">Flawless documents prepared fast</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Private mediation avoids court battles">Private mediation avoids court battles</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Most save $20k–$60k and finish in months">Most save $20k–$60k and finish in months</span>
-                        </li>
-                    </ul>
+                <img src="https://images.pexels.com/photos/7876203/pexels-photo-7876203.jpeg" alt="Stressed family during traditional litigation process" class="w-full h-64 object-cover rounded-lg mb-6" loading="lazy">
+                <ul class="space-y-4 text-gray-400">
+                    <li class="flex items-start">
+                        <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="$15k–$75k+ in unnecessary fees">$15k–$75k+ in unnecessary fees</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="12–36 months of emotional battles">12–36 months of emotional battles</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Financial exhaustion from hourly billing">Financial exhaustion from hourly billing</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="x" class="text-red-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="No control over the process">No control over the process</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Vegas Family Pro's -->
+            <div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-300">
+                <div class="flex items-center mb-6">
+                    <div class="w-2 h-8 bg-amber-500 rounded-full mr-4"></div>
+                    <h3 class="text-2xl font-medium" data-es="Vegas Family Pro's">Vegas Family Pro's</h3>
                 </div>
+                <img src="https://images.pexels.com/photos/12885861/pexels-photo-12885861.jpeg" alt="Happy family enjoying time after using Vegas Family Pro's services" class="w-full h-64 object-cover rounded-lg mb-6" loading="lazy">
+                <ul class="space-y-4 text-gray-300">
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Flat, predictable pricing - no surprises">Flat, predictable pricing - no surprises</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Flawless documents prepared fast">Flawless documents prepared fast</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Private mediation avoids court battles">Private mediation avoids court battles</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Most save $20k–$60k and finish in months">Most save $20k–$60k and finish in months</span>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
-    <!-- Solutions Section -->
-    <section id="solutions" class="py-24 bg-gray-900">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-light text-center mb-6" data-es="What We Do">What We Do</h2>
-            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16" data-es="Sophisticated solutions that protect your family and finances">Sophisticated solutions that protect your family and finances</p>
-           
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Document Preparation -->
-                <div class="bg-gray-800/50 hover:bg-gray-800/70 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300 group">
-                    <div class="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition">
-                        <i data-feather="file-text" class="text-amber-400 w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-2xl font-medium mb-4" data-es="Expert Document Preparation">Expert Document Preparation</h3>
-                    <p class="text-gray-400 mb-6" data-es="Court-ready filings prepared perfectly at predictable flat rates. No hourly surprises, no retainer fees.">Court-ready filings prepared perfectly at predictable flat rates. No hourly surprises, no retainer fees.</p>
-                    <a href="#pricing" class="flex items-center text-amber-400 font-medium">
-                        <span data-es="Learn More">Learn More</span>
-                        <i data-feather="arrow-right" class="ml-2 w-5"></i>
-                    </a>
-</div>
-               
-                <!-- Private Mediation -->
-                <div class="bg-gray-800/50 hover:bg-gray-800/70 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300 group">
-                    <div class="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition">
-                        <i data-feather="users" class="text-amber-400 w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-2xl font-medium mb-4" data-es="Private Mediation">Private Mediation</h3>
-                    <p class="text-gray-400 mb-6" data-es="Resolve everything outside of court with our certified mediators. Faster, cheaper, and far less painful.">Resolve everything outside of court with our certified mediators. Faster, cheaper, and far less painful.</p>
-                    <a href="#pricing" class="flex items-center text-amber-400 font-medium">
-                        <span data-es="Learn More">Learn More</span>
-                        <i data-feather="arrow-right" class="ml-2 w-5"></i>
-                    </a>
-</div>
-               
-                <!-- Limited Scope -->
-                <div class="bg-gray-800/50 hover:bg-gray-800/70 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300 group">
-                    <div class="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition">
-                        <i data-feather="shield" class="text-amber-400 w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-2xl font-medium mb-4" data-es="Limited-Scope Representation">Limited-Scope Representation</h3>
-                    <p class="text-gray-400 mb-6" data-es="Need a Lawyer to back you up at Court? Let us connect you with one of the expert Family Law Attorneys in our network to advocate for you at your next Hearing or Trial.">Need a Lawyer to back you up at Court? Let us connect you with one of the expert Family Law Attorneys in our network to advocate for you at your next Hearing or Trial.</p>
-                    <a href="#pricing" class="flex items-center text-amber-400 font-medium">
-                        <span data-es="Learn More">Learn More</span>
-                        <i data-feather="arrow-right" class="ml-2 w-5"></i>
-                    </a>
-</div>
-            </div>
-        </div>
-    </section>
-    <!-- Pricing Section -->
-    <section id="pricing" class="py-24 bg-black">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-light text-center mb-6" data-es="Clear, Upfront Pricing">Clear, Upfront Pricing</h2>
-            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16" data-es="No retainers. No hourly billing. Just predictable flat rates that save you thousands.">No retainers. No hourly billing. Just predictable flat rates that save you thousands.</p>
-           
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                <!-- Document Packages -->
-                <div class="bg-gradient-to-b from-gray-900 to-gray-900/50 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-300">
-                    <h3 class="text-2xl font-medium mb-6" data-es="Document Packages">Document Packages</h3>
-                    <div class="text-5xl font-light mb-6">
-                        <span class="text-amber-400" data-es="Starting at $499">Starting at $499</span>
-                    </div>
-                    <ul class="space-y-4 text-gray-400 mb-8">
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Divorce">Divorce</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Child Custody">Child Custody</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Child Support">Child Support</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Protection Orders">Protection Orders</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Adoption">Adoption</span>
-                        </li>
-                                                <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Guardianships">Guardianships</span>
-                        </li>
-                    </ul>
-                    <a href="#contact" class="w-full block text-center px-6 py-3 border border-white/20 hover:border-amber-500 rounded-full text-sm font-medium tracking-wider transition-all hover:bg-gradient-to-r hover:from-amber-600/10 hover:to-amber-400/10" data-es="Get Started">
-                        Get Started
-                    </a>
-                </div>
-               
-                <!-- Private Mediation -->
-                <div class="bg-gradient-to-b from-gray-900 to-gray-900/50 p-8 rounded-xl border border-amber-500/50 hover:border-amber-500/70 transition-all duration-300">
-                    <div class="absolute top-0 right-0 bg-amber-500 text-black px-4 py-1 text-xs font-bold rounded-bl-lg rounded-tr-lg">MOST POPULAR</div>
-                    <h3 class="text-2xl font-medium mb-6" data-es="Private Mediation">Private Mediation</h3>
-                    <div class="text-5xl font-light mb-6">
-                        <span class="text-amber-400" data-es="Starting at $999">Starting at $999</span>
-                    </div>
-                    <ul class="space-y-4 text-gray-400 mb-8">
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Customized Solutions to Meet Your Specific Needs">Customized Solutions to Meet Your Specific Needs</span>
-                        </li>
-                           <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Flexible Scheduling and Coordination">Flexible Scheduling and Coordination</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="90% Success Rate in Resolving Conflicts">90% Success Rate in Resolving Conflicts</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Court-Approved Agreements">Court-Approved Agreements</span>
-                        </li>
-                    </ul>
-                    <a href="#contact" class="w-full block text-center px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-sm font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/10" data-es="Choose Mediation">
-                        Choose Mediation
-                    </a>
-                </div>
-               
-                <!-- A La Carte -->
-                <div class="bg-gradient-to-b from-gray-900 to-gray-900/50 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-300">
-                    <h3 class="text-2xl font-medium mb-6" data-es="Limited Scope Representation">Limited Scope Representation</h3>
-                    <div class="text-5xl font-light mb-6">
-                        <span class="text-amber-400" data-es="Starting at $599">Starting at $599</span>
-                    </div>
-                    <ul class="space-y-4 text-gray-400 mb-8">
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="No Hourly Charges or Unexpected Fees">No Hourly Charges or Unexpected Fees</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="A La Carte Representation - Only Pay for a Lawyer When You Need It">A La Carte Representation - Only Pay for a Lawyer When You Need It</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
-                            <span data-es="Save Thousands of Dollars Compared to Traditional Legal Representation">Save Thousands of Dollars Compared to Traditional Legal Representation</span>
-                        </li>
-                    </ul>
-                    <a href="#contact" class="w-full block text-center px-6 py-3 border border-white/20 hover:border-amber-500 rounded-full text-sm font-medium tracking-wider transition-all hover:bg-gradient-to-r hover:from-amber-600/10 hover:to-amber-400/10" data-es="Find an Attorney">
-                        Find an Attorney
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Testimonials -->
-    <section id="testimonials" class="py-24 bg-gray-900">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-light text-center mb-6" data-es="Peace of Mind">Peace of Mind</h2>
-            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16" data-es="We've Saved Our Clients Millions of Dollars in Legal Fees">We've Saved Our Clients Millions of Dollars in Legal Fees</p>
-           
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-                <div class="flex items-center justify-center">
-                    <div class="text-5xl font-light text-amber-400">4.9</div>
-                    <div class="ml-4">
-                        <div class="flex mb-1">
-                            <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
-                            <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
-                            <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
-                            <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
-                            <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
-                        </div>
-                        <div class="text-sm text-gray-400" data-es="285+ verified reviews">285+ verified reviews</div>
-                    </div>
+<!-- Solutions Section -->
+<section id="solutions" class="py-24 bg-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-light text-center mb-6" data-es="What We Do">What We Do</h2>
+        <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16" data-es="Sophisticated solutions that protect your family and finances">Sophisticated solutions that protect your family and finances</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Document Preparation -->
+            <div class="bg-gray-800/50 hover:bg-gray-800/70 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300 group">
+                <div class="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition">
+                    <i data-feather="file-text" class="text-amber-400 w-8 h-8"></i>
                 </div>
-                <div class="flex items-center justify-center border-x border-gray-800 px-8">
-                    <div class="text-5xl font-light text-amber-400">83%</div>
-                    <div class="ml-4">
-                        <div class="text-xl font-medium" data-es="Faster">Faster</div>
-                        <div class="text-sm text-gray-400" data-es="than traditional litigation">than traditional litigation</div>
-                    </div>
+                <h3 class="text-2xl font-medium mb-4" data-es="Expert Document Preparation">Expert Document Preparation</h3>
+                <p class="text-gray-400 mb-6" data-es="Court-ready filings prepared perfectly at predictable flat rates. No hourly surprises, no retainer fees.">Court-ready filings prepared perfectly at predictable flat rates. No hourly surprises, no retainer fees.</p>
+                <a href="#pricing" class="flex items-center text-amber-400 font-medium">
+                    <span data-es="Learn More">Learn More</span>
+                    <i data-feather="arrow-right" class="ml-2 w-5"></i>
+                </a>
+            </div>
+            <!-- Private Mediation -->
+            <div class="bg-gray-800/50 hover:bg-gray-800/70 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300 group">
+                <div class="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition">
+                    <i data-feather="users" class="text-amber-400 w-8 h-8"></i>
                 </div>
-                <div class="flex items-center justify-center">
-                    <div class="text-5xl font-light text-amber-400">$46k</div>
-                    <div class="ml-4">
-                        <div class="text-xl font-medium" data-es="Average savings">Average savings</div>
-                        <div class="text-sm text-gray-400" data-es="per client">per client</div>
+                <h3 class="text-2xl font-medium mb-4" data-es="Private Mediation">Private Mediation</h3>
+                <p class="text-gray-400 mb-6" data-es="Resolve everything outside of court with our certified mediators. Faster, cheaper, and far less painful.">Resolve everything outside of court with our certified mediators. Faster, cheaper, and far less painful.</p>
+                <a href="#pricing" class="flex items-center text-amber-400 font-medium">
+                    <span data-es="Learn More">Learn More</span>
+                    <i data-feather="arrow-right" class="ml-2 w-5"></i>
+                </a>
+            </div>
+            <!-- Limited Scope -->
+            <div class="bg-gray-800/50 hover:bg-gray-800/70 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300 group">
+                <div class="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition">
+                    <i data-feather="shield" class="text-amber-400 w-8 h-8"></i>
+                </div>
+                <h3 class="text-2xl font-medium mb-4" data-es="Limited-Scope Representation">Limited-Scope Representation</h3>
+                <p class="text-gray-400 mb-6" data-es="Need a Lawyer to back you up at Court? Let us connect you with one of the expert Family Law Attorneys in our network to advocate for you at your next Hearing or Trial.">Need a Lawyer to back you up at Court? Let us connect you with one of the expert Family Law Attorneys in our network to advocate for you at your next Hearing or Trial.</p>
+                <a href="#pricing" class="flex items-center text-amber-400 font-medium">
+                    <span data-es="Learn More">Learn More</span>
+                    <i data-feather="arrow-right" class="ml-2 w-5"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="pricing" class="py-24 bg-black">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-light text-center mb-6" data-es="Clear, Upfront Pricing">Clear, Upfront Pricing</h2>
+        <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16" data-es="No retainers. No hourly billing. Just predictable flat rates that save you thousands.">No retainers. No hourly billing. Just predictable flat rates that save you thousands.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <!-- Document Packages -->
+            <div class="bg-gradient-to-b from-gray-900 to-gray-900/50 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-300">
+                <h3 class="text-2xl font-medium mb-6" data-es="Document Packages">Document Packages</h3>
+                <div class="text-5xl font-light mb-6">
+                    <span class="text-amber-400" data-es="Starting at $499">Starting at $499</span>
+                </div>
+                <ul class="space-y-4 text-gray-400 mb-8">
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Divorce">Divorce</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Child Custody">Child Custody</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Child Support">Child Support</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Protection Orders">Protection Orders</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Adoption">Adoption</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Guardianships">Guardianships</span>
+                    </li>
+                </ul>
+                <a href="#contact" class="w-full block text-center px-6 py-3 border border-white/20 hover:border-amber-500 rounded-full text-sm font-medium tracking-wider transition-all hover:bg-gradient-to-r hover:from-amber-600/10 hover:to-amber-400/10" data-es="Get Started">
+                    Get Started
+                </a>
+            </div>
+            <!-- Private Mediation -->
+            <div class="bg-gradient-to-b from-gray-900 to-gray-900/50 p-8 rounded-xl border border-amber-500/50 hover:border-amber-500/70 transition-all duration-300 relative">
+                <div class="absolute top-0 right-0 bg-amber-500 text-black px-4 py-1 text-xs font-bold rounded-bl-lg rounded-tr-lg">MOST POPULAR</div>
+                <h3 class="text-2xl font-medium mb-6" data-es="Private Mediation">Private Mediation</h3>
+                <div class="text-5xl font-light mb-6">
+                    <span class="text-amber-400" data-es="Starting at $999">Starting at $999</span>
+                </div>
+                <ul class="space-y-4 text-gray-400 mb-8">
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Customized Solutions to Meet Your Specific Needs">Customized Solutions to Meet Your Specific Needs</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Flexible Scheduling and Coordination">Flexible Scheduling and Coordination</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="90% Success Rate in Resolving Conflicts">90% Success Rate in Resolving Conflicts</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Court-Approved Agreements">Court-Approved Agreements</span>
+                    </li>
+                </ul>
+                <a href="#contact" class="w-full block text-center px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-sm font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/10" data-es="Choose Mediation">
+                    Choose Mediation
+                </a>
+            </div>
+            <!-- Limited Scope Representation -->
+            <div class="bg-gradient-to-b from-gray-900 to-gray-900/50 p-8 rounded-xl border border-gray-800 hover:border-amber-500/30 transition-all duration-300">
+                <h3 class="text-2xl font-medium mb-6" data-es="Limited Scope Representation">Limited Scope Representation</h3>
+                <div class="text-5xl font-light mb-6">
+                    <span class="text-amber-400" data-es="Starting at $599">Starting at $599</span>
+                </div>
+                <ul class="space-y-4 text-gray-400 mb-8">
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="No Hourly Charges or Unexpected Fees">No Hourly Charges or Unexpected Fees</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="A La Carte Representation - Only Pay for a Lawyer When You Need It">A La Carte Representation - Only Pay for a Lawyer When You Need It</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="check" class="text-amber-400 mr-2 mt-1 w-5"></i>
+                        <span data-es="Save Thousands of Dollars Compared to Traditional Legal Representation">Save Thousands of Dollars Compared to Traditional Legal Representation</span>
+                    </li>
+                </ul>
+                <a href="#contact" class="w-full block text-center px-6 py-3 border border-white/20 hover:border-amber-500 rounded-full text-sm font-medium tracking-wider transition-all hover:bg-gradient-to-r hover:from-amber-600/10 hover:to-amber-400/10" data-es="Find an Attorney">
+                    Find an Attorney
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials" class="py-24 bg-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-light text-center mb-6" data-es="Peace of Mind">Peace of Mind</h2>
+        <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto mb-16" data-es="We've Saved Our Clients Millions of Dollars in Legal Fees">We've Saved Our Clients Millions of Dollars in Legal Fees</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div class="flex items-center justify-center">
+                <div class="text-5xl font-light text-amber-400">4.9</div>
+                <div class="ml-4">
+                    <div class="flex mb-1">
+                        <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-amber-400 w-5 h-5"></i>
                     </div>
+                    <div class="text-sm text-gray-400" data-es="285+ verified reviews">285+ verified reviews</div>
                 </div>
             </div>
-           
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="bg-gray-800/50 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300">
-                    <div class="flex items-center mb-6">
-                        <img src="http://static.photos/happy-people/200x200/1" alt="Sarah M." class="w-12 h-12 rounded-full object-cover mr-4">
-<div>
-                            <div class="font-medium">Sarah M.</div>
-                            <div class="text-sm text-gray-400" data-es="Divorce Client">Divorce Client</div>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 italic mb-4">"Vegas Family Pro's saved me over $30,000 compared to what my friend paid for her divorce. My documents were perfect, and the mediation avoided months of court battles."</p>
-                    <div class="flex">
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                    </div>
+            <div class="flex items-center justify-center border-x border-gray-800 px-8">
+                <div class="text-5xl font-light text-amber-400">83%</div>
+                <div class="ml-4">
+                    <div class="text-xl font-medium" data-es="Faster">Faster</div>
+                    <div class="text-sm text-gray-400" data-es="than traditional litigation">than traditional litigation</div>
                 </div>
-                <div class="bg-gray-800/50 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300">
-                    <div class="flex items-center mb-6">
-                        <img src="http://static.photos/happy-people/200x200/2" alt="Michael T." class="w-12 h-12 rounded-full object-cover mr-4">
-<div>
-                            <div class="font-medium">Michael T.</div>
-                            <div class="text-sm text-gray-400" data-es="Custody Client">Custody Client</div>
-                        </div>
-                    </div>
-                    <p class="text-gray-300 italic mb-4">"Our custody agreement was handled in weeks, not years. The mediator was incredibly skilled at finding common ground where our attorneys had failed."</p>
-                    <div class="flex">
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                        <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
-                    </div>
+            </div>
+            <div class="flex items-center justify-center">
+                <div class="text-5xl font-light text-amber-400">$46k</div>
+                <div class="ml-4">
+                    <div class="text-xl font-medium" data-es="Average savings">Average savings</div>
+                    <div class="text-sm text-gray-400" data-es="per client">per client</div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-gray-800/50 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300">
+                <div class="flex items-center mb-6">
+                    <img src="http://static.photos/happy-people/200x200/1" alt="Sarah M., Divorce Client testimonial photo" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy">
+                    <div>
+                        <div class="font-medium">Sarah M.</div>
+                        <div class="text-sm text-gray-400" data-es="Divorce Client">Divorce Client</div>
+                    </div>
+                </div>
+                <p class="text-gray-300 italic mb-4">"Vegas Family Pro's saved me over $30,000 compared to what my friend paid for her divorce. My documents were perfect, and the mediation avoided months of court battles."</p>
+                <div class="flex">
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                </div>
+            </div>
+            <div class="bg-gray-800/50 p-8 rounded-xl border border-gray-700 hover:border-amber-500/30 transition-all duration-300">
+                <div class="flex items-center mb-6">
+                    <img src="http://static.photos/happy-people/200x200/2" alt="Michael T., Custody Client testimonial photo" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy">
+                    <div>
+                        <div class="font-medium">Michael T.</div>
+                        <div class="text-sm text-gray-400" data-es="Custody Client">Custody Client</div>
+                    </div>
+                </div>
+                <p class="text-gray-300 italic mb-4">"Our custody agreement was handled in weeks, not years. The mediator was incredibly skilled at finding common ground where our attorneys had failed."</p>
+                <div class="flex">
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                    <i data-feather="star" class="text-amber-400 w-4 h-4"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <!-- Final CTA -->
-    <section id="contact" class="py-32 bg-black">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-4xl md:text-5xl font-light mb-6" data-es="End the chaos. Find peace.">End the chaos. <span class="text-amber-400">Find peace.</span></h2>
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-12" data-es="Most families finish their case in weeks or months — not years — and keep their life savings.">Most families finish their case in weeks or months — not years — and keep their life savings.</p>
-<!-- Quote Button + Modal Trigger -->
-<button onclick="openQuoteModal()" class="inline-block px-12 py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-lg font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/20 cursor-pointer" data-es="Get Your Flat-Rate Quote in 60 Seconds">
-    Get Your Flat-Rate Quote in 60 Seconds
-</button>
+<!-- Final CTA -->
+<section id="contact" class="py-32 bg-black">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-4xl md:text-5xl font-light mb-6" data-es="End the chaos. Find peace.">End the chaos. <span class="text-amber-400">Find peace.</span></h2>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-12" data-es="Most families finish their case in weeks or months — not years — and keep their life savings.">Most families finish their case in weeks or months — not years — and keep their life savings.</p>
+        <button onclick="openQuoteModal()" class="inline-block px-12 py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full text-lg font-medium tracking-wider transition-all hover:shadow-lg hover:shadow-amber-500/20 cursor-pointer" data-es="Get Your Flat-Rate Quote in 60 Seconds">
+            Get Your Flat-Rate Quote in 60 Seconds
+        </button>
 
-<!-- NATIVE-LOOKING GOOGLE FORM MODAL (2025-proof) -->
+        <!-- Quote Modal -->
+        <!-- NATIVE-LOOKING FORM MODAL (replaces Google Form iframe) -->
 <div id="quoteModal" class="fixed inset-0 bg-black/95 backdrop-blur-lg z-[99999] hidden flex items-center justify-center p-4">
-    <div class="relative w-full max-w-2xl h-[92vh] bg-gray-900/95 border border-amber-500/40 rounded-2xl shadow-2xl flex flex-col">
+    <div class="relative w-full max-w-2xl h-[92vh] bg-gray-900/95 border border-amber-500/40 rounded-2xl shadow-2xl flex flex-col overflow-y-auto">
         <!-- Close X -->
         <button onclick="closeQuoteModal()" class="absolute top-4 right-4 z-10 w-12 h-12 bg-black/60 rounded-full flex items-center justify-center text-gray-400 hover:text-white text-4xl hover:bg-black/80 transition">
             ×
@@ -409,59 +393,67 @@
             <p class="text-gray-400" data-es="We’ll email you exact pricing within 24 hours.">We’ll email you exact pricing within 24 hours.</p>
         </div>
 
-        <!-- Scrollable iframe wrapper -->
-        <div class="flex-1 overflow-y-auto px-6 py-6">
-            <style>
-                /* ---- HIDE GOOGLE DEFAULT STYLES ---- */
-                #googleFormIframe ::-webkit-scrollbar { width: 6px; }
-                #googleFormIframe ::-webkit-scrollbar-track { background: transparent; }
-                #googleFormIframe ::-webkit-scrollbar-thumb { background: #f59e0b; border-radius: 3px; }
-                #googleFormIframe .ss-form-container { background: transparent !important; }
-                #googleFormIframe .ss-form { padding:0 !important; }
-                #googleFormIframe .ss-q-item-label { color:#e5e7eb !important; font-family:Inter,sans-serif !important; }
-                #googleFormIframe .ss-q-help { color:#9ca3af !important; }
-                #googleFormIframe input[type=text],
-                #googleFormIframe input[type=email],
-                #googleFormIframe input[type=tel],
-                #googleFormIframe select,
-                #googleFormIframe textarea {
-                    background:#1f2937 !important;
-                    border:1px solid #374151 !important;
-                    border-radius:0.5rem !important;
-                    color:#fff !important;
-                    padding:1rem !important;
-                    font-size:1rem !important;
-                }
-                #googleFormIframe input:focus,
-                #googleFormIframe select:focus,
-                #googleFormIframe textarea:focus {
-                    border-color:#f59e0b !important;
-                    outline:none !important;
-                }
-                #googleFormIframe .ss-submit button {
-                    background:linear-gradient(to right,#f59e0b,#fbbf24) !important;
-                    color:#000 !important;
-                    font-weight:600 !important;
-                    border-radius:0.75rem !important;
-                    padding:1.25rem !important;
-                    font-size:1.125rem !important;
-                }
-                #googleFormIframe .ss-submit button:hover {
-                    background:linear-gradient(to right,#d97706,#f59e0b) !important;
-                }
-            </style>
+        <!-- Form Body (custom HTML form styled natively) -->
+        <form action="https://api.web3forms.com/submit" method="POST" class="flex-1 px-8 py-6 space-y-6">
+            <!-- Hidden Access Key (replace with your actual key) -->
+            <input type="hidden" name="access_key" value="4d693c82-97ea-4da6-8a41-9fef5d627fb2">
 
-            <iframe id="googleFormIframe"
-                src="https://docs.google.com/forms/d/e/1FAIpQLSfu_LRXxd74UrqkhKXTJZqjr5ZAROtOrTQdclX_oM44Qak7Ng/viewform?embedded=true"
-                class="w-full h-full min-h-[600px] border-0"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0"
-                allowfullscreen
-                loading="lazy">
-                Loading…
-            </iframe>
-        </div>
+            <!-- Change Subject Line in the Form Responses) -->
+            <input type="hidden" name="subject" value="NEW POTENTIAL CLIENT">
+
+            <!-- Honeypot for spam protection (hidden checkbox) -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <!-- First Name -->
+            <div>
+                <label for="first_name" class="block text-sm font-medium text-gray-300 mb-2" data-es="First Name *">First Name *</label>
+                <input type="text" id="first_name" name="first_name" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition">
+            </div>
+
+            <!-- Last Name -->
+            <div>
+                <label for="last_name" class="block text-sm font-medium text-gray-300 mb-2" data-es="Last Name *">Last Name *</label>
+                <input type="text" id="last_name" name="last_name" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition">
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-300 mb-2" data-es="Email *">Email *</label>
+                <input type="email" id="email" name="email" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition">
+            </div>
+
+            <!-- Phone Number -->
+            <div>
+                <label for="phone" class="block text-sm font-medium text-gray-300 mb-2" data-es="Phone Number *">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition">
+            </div>
+
+            <!-- Case Type (Dropdown) -->
+            <div>
+                <label for="case_type" class="block text-sm font-medium text-gray-300 mb-2" data-es="Case Type *">Case Type *</label>
+                <select id="case_type" name="case_type" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition">
+                    <option value="">Select a case type</option>
+                    <option value="Divorce">Divorce</option>
+                    <option value="Child Custody">Child Custody</option>
+                    <option value="Child Support">Child Support</option>
+                    <option value="Protection Orders">Protection Orders</option>
+                    <option value="Adoption">Adoption</option>
+                    <option value="Guardianships">Guardianships</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <!-- Brief Details -->
+            <div>
+                <label for="details" class="block text-sm font-medium text-gray-300 mb-2" data-es="Brief Details (optional)">Brief Details (optional)</label>
+                <textarea id="details" name="details" rows="4" class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-amber-500 focus:outline-none transition"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="w-full py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-xl font-bold text-black text-lg transition-all">
+                Get My Flat-Rate Quote
+            </button>
+        </form>
 
         <!-- Footer -->
         <div class="p-4 text-center text-xs text-gray-500 flex-none" data-es="Secure · Private · No spam ever">
@@ -469,142 +461,103 @@
         </div>
     </div>
 </div>
+    </div>
+</section>
 
-<!-- Modal JS + Confetti -->
+<!-- Footer -->
+<footer class="bg-gray-900 border-t border-gray-800 py-16 md:py-24">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+            <div>
+                <div class="text-2xl font-light tracking-tight mb-4">VEGAS<span class="font-medium">FAMILY</span>PRO'S</div>
+                <p class="text-gray-400" data-es="The smarter, more peaceful way through family issues.">The smarter, more peaceful way through family issues.</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-medium mb-4" data-es="Solutions">Solutions</h3>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#solutions" class="hover:text-white transition" data-es="Document Preparation">Document Preparation</a></li>
+                    <li><a href="#solutions" class="hover:text-white transition" data-es="Private Mediation">Private Mediation</a></li>
+                    <li><a href="#solutions" class="hover:text-white transition" data-es="Limited-Scope Representation">Limited-Scope Representation</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-medium mb-4" data-es="Company">Company</h3>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:text-white transition" data-es="About Us">About Us</a></li>
+                    <li><a href="#pricing" class="hover:text-white transition" data-es="Pricing">Pricing</a></li>
+                    <li><a href="#testimonials" class="hover:text-white transition" data-es="Testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-medium mb-4" data-es="Contact">Contact</h3>
+                <ul class="space-y-2 text-gray-400">
+                    <li class="flex items-start">
+                        <i data-feather="phone" class="mr-2 w-4"></i>
+                        <a href="tel:+17025561643" class="hover:text-white transition">(702) 556-1643</a>
+                    </li>
+                    <li class="flex items-start">
+                        <i data-feather="mail" class="mr-2 w-4"></i>
+                        <a href="mailto:info@vegasfamilypros.com" class="hover:text-white transition">info@vegasfamilypros.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pt-12 border-t border-gray-800">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400 text-sm mb-4 md:mb-0" data-es="© 2023 Vegas Family Pro's. All Rights Reserved.">© 2023 Vegas Family Pro's. All Rights Reserved.</div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition" rel="noopener noreferrer" aria-label="Instagram">
+                        <i data-feather="instagram" class="w-5"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition" rel="noopener noreferrer" aria-label="Facebook">
+                        <i data-feather="facebook" class="w-5"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i data-feather="linkedin" class="w-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Language Toggle Button -->
+<div id="languageToggle" class="fixed bottom-6 right-6 z-[9998] w-14 h-14 bg-gray-800 border-2 border-amber-500 rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition-all shadow-2xl group">
+    <span id="langText" class="text-white font-bold text-lg">EN</span>
+    <span class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+        <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h18M9 12h6m-6 7h6"></path>
+        </svg>
+    </span>
+</div>
+
+<!-- Legal Disclaimer Popup -->
+<div id="legalPopup" class="fixed inset-0 bg-black/90 backdrop-blur-md z-[9999] flex items-center justify-center px-4 hidden">
+    <div class="bg-gray-900 border border-amber-500/30 rounded-2xl max-w-2xl w-full p-8 relative">
+        <button onclick="closeLegalPopup()" class="absolute top-4 right-4 text-gray-400 hover:text-white">
+            <i data-feather="x" class="w-8 h-8"></i>
+        </button>
+        <h3 class="text-2xl font-medium text-amber-400 mb-6 text-center" data-es="Important Legal Notice">Important Legal Notice</h3>
+        <div class="text-gray-300 text-sm leading-relaxed space-y-4 text-center">
+            <p data-es="Vegas Family Pro's is not a law firm and does not provide legal advice or legal representation.">Vegas Family Pro's is <strong>not a law firm</strong> and does not provide legal advice or legal representation.</p>
+            <p data-es="We offer document preparation and private mediation services only. All forms and agreements are prepared as a non-lawyer document preparation service.">We offer document preparation and private mediation services only. All forms and agreements are prepared as a non-lawyer document preparation service.</p>
+            <p data-es="Clients represent themselves in court (pro se) or must retain a licensed attorney for hearings and representation. Use of our services does not create an attorney-client relationship.">Clients represent themselves in court (pro se) or must retain a licensed attorney for hearings and representation. Use of our services does not create an attorney-client relationship.</p>
+        </div>
+        <button onclick="closeLegalPopup()" class="mt-8 w-full py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-xl font-bold text-black text-lg transition-all" data-es="I Understand & Continue">
+            I Understand & Continue
+        </button>
+    </div>
+</div>
+
+<!-- Scripts -->
 <script>
-function openQuoteModal() {
-    document.getElementById('quoteModal').classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
-    // refresh icons inside modal
-    setTimeout(() => feather.replace(), 100);
-}
-
-function closeQuoteModal() {
-    document.getElementById('quoteModal').classList.add('hidden');
-    document.body.style.overflow = 'auto';
-}
-
-// Close on backdrop click
-document.getElementById('quoteModal').addEventListener('click', e => {
-    if (e.target === document.getElementById('quoteModal')) closeQuoteModal();
-});
-
-// ---- CONFetti when Google shows its thank-you page ----
-let confettiFired = false;
-window.addEventListener('message', function handler(e) {
-    if (e.origin !== 'https://docs.google.com') return;
-    if (!confettiFired && (e.data?.includes?.('formResponse') || e.data?.includes?.('thankyou'))) {
-        confettiFired = true;
-        confetti({
-            particleCount: 150,
-            spread: 70,
-            origin: { y: 0.6 },
-            colors: ['#f59e0b', '#fbbf24', '#ffffff', '#1e293b']
-        });
-        setTimeout(() => {
-            confetti({ particleCount: 80, angle: 60, spread: 55, origin: { x: 0 } });
-            confetti({ particleCount: 80, angle: 120, spread: 55, origin: { x: 1 } });
-        }, 250);
-    }
-});
-</script>
-</div> </section>
-    <!-- Footer -->
-    <footer class="bg-gray-900 border-t border-gray-800 py-16 md:py-24">
-<div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-                <div>
-                    <div class="text-2xl font-light tracking-tight mb-4">VEGAS<span class="font-medium">FAMILY</span>PRO'S</div>
-                    <p class="text-gray-400" data-es="The smarter, more peaceful way through family issues.">The smarter, more peaceful way through family issues.</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-medium mb-4" data-es="Solutions">Solutions</h3>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition" data-es="Document Preparation">Document Preparation</a></li>
-                        <li><a href="#" class="hover:text-white transition" data-es="Private Mediation">Private Mediation</a></li>
-                        <li><a href="#" class="hover:text-white transition" data-es="Limited-Scope Representation">Limited-Scope Representation</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-medium mb-4" data-es="Company">Company</h3>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition" data-es="About Us">About Us</a></li>
-                        <li><a href="#" class="hover:text-white transition" data-es="Pricing">Pricing</a></li>
-                        <li><a href="#" class="hover:text-white transition" data-es="Testimonials">Testimonials</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-medium mb-4" data-es="Contact">Contact</h3>
-                    <ul class="space-y-2 text-gray-400">
-                        <li class="flex items-start">
-                            <i data-feather="phone" class="mr-2 w-4"></i>
-                            <a href="tel:+17025561643" class="hover:text-white transition">(702) 556-1643</a>
-                        </li>
-                        <li class="flex items-start">
-                            <i data-feather="mail" class="mr-2 w-4"></i>
-                            <a href="mailto:info@vegasfamilypros.com" class="hover:text-white transition">info@vegasfamilypros.com</a>
-                        </li>
-</ul>
-                </div>
-            </div>
-            <div class="pt-12 border-t border-gray-800">
-                <div class="flex flex-col md:flex-row justify-between items-center">
-                    <div class="text-gray-400 text-sm mb-4 md:mb-0" data-es="© 2023 Vegas Family Pro's. All Rights Reserved.">© 2023 Vegas Family Pro's. All Rights Reserved.</div>
-<div class="flex space-x-6">
-                        <a href="#" class="text-gray-400 hover:text-white transition">
-                            <i data-feather="instagram" class="w-5"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition">
-                            <i data-feather="facebook" class="w-5"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition">
-                            <i data-feather="linkedin" class="w-5"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- FIXED Language Toggle Button + Script (works every click) -->
-    <div id="languageToggle" class="fixed bottom-6 right-6 z-[9998] w-14 h-14 bg-gray-800 border-2 border-amber-500 rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition-all shadow-2xl group">
-        <span id="langText" class="text-white font-bold text-lg">EN</span>
-        <span class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-            <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h18M9 12h6m-6 7h6"></path>
-            </svg>
-        </span>
-    </div>
-
-    <!-- Legal Disclaimer Popup (kept exactly as you had it) -->
-    <div id="legalPopup" class="fixed inset-0 bg-black/90 backdrop-blur-md z-[9999] flex items-center justify-center px-4 hidden">
-        <div class="bg-gray-900 border border-amber-500/30 rounded-2xl max-w-2xl w-full p-8 relative">
-            <button onclick="closeLegalPopup()" class="absolute top-4 right-4 text-gray-400 hover:text-white">
-                <i data-feather="x" class="w-8 h-8"></i>
-            </button>
-            <h3 class="text-2xl font-medium text-amber-400 mb-6 text-center" data-es="Important Legal Notice">Important Legal Notice</h3>
-            <div class="text-gray-300 text-sm leading-relaxed space-y-4 text-center">
-                <p data-es="Vegas Family Pro's is not a law firm and does not provide legal advice or legal representation.">Vegas Family Pro's is <strong>not a law firm</strong> and does not provide legal advice or legal representation.</p>
-                <p data-es="We offer document preparation and private mediation services only. All forms and agreements are prepared as a non-lawyer document preparation service.">We offer document preparation and private mediation services only. All forms and agreements are prepared as a non-lawyer document preparation service.</p>
-                <p data-es="Clients represent themselves in court (pro se) or must retain a licensed attorney for hearings and representation. Use of our services does not create an attorney-client relationship.">Clients represent themselves in court (pro se) or must retain a licensed attorney for hearings and representation. Use of our services does not create an attorney-client relationship.</p>
-            </div>
-            <button onclick="closeLegalPopup()" class="mt-8 w-full py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-xl font-bold text-black text-lg transition-all" data-es="I Understand & Continue">
-                I Understand & Continue
-            </button>
-        </div>
-    </div>
-
-    <!-- ALL SCRIPTS (Feather icons + modals + FIXED language toggle) -->
-    <script>
     // Initialize Feather icons
-  document.addEventListener("DOMContentLoaded", () => {
-    feather.replace();
-    
-    // This forces the popup to show EVERY time the page loads
-    document.getElementById('legalPopup').classList.remove('hidden');
-    
-    // Optional: clear the flag on every load (just in case)
-    sessionStorage.removeItem('legalAcknowledged');
-});  
+    document.addEventListener("DOMContentLoaded", () => {
+        feather.replace();
+        // Show legal popup on every load
+        document.getElementById('legalPopup').classList.remove('hidden');
+        sessionStorage.removeItem('legalAcknowledged');
+    });
 
     // Modal functions
     function openQuoteModal() {
@@ -621,25 +574,26 @@ window.addEventListener('message', function handler(e) {
         sessionStorage.setItem('legalAcknowledged', 'true');
     }
 
-    // Google Form + Confetti
-    function submitGoogleForm(e) {
-        e.preventDefault();
-        const btn = e.target.querySelector('button[type="submit"]');
-        btn.disabled = true;
-        btn.innerHTML = 'Sending...';
-        fetch(e.target.action, { method: 'POST', body: new FormData(e.target), mode: 'no-cors' })
-        .finally(() => {
-            document.getElementById('quoteForm').classList.add('hidden');
-            document.getElementById('successMessage').classList.remove('hidden');
-            confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 }, colors: ['#f59e0b', '#fbbf24', '#ffffff', '#1e293b'] });
+    // Confetti for form submission
+    let confettiFired = false;
+    window.addEventListener('message', function handler(e) {
+        if (e.origin !== 'https://docs.google.com') return;
+        if (!confettiFired && (e.data?.includes?.('formResponse') || e.data?.includes?.('thankyou'))) {
+            confettiFired = true;
+            confetti({
+                particleCount: 150,
+                spread: 70,
+                origin: { y: 0.6 },
+                colors: ['#f59e0b', '#fbbf24', '#ffffff', '#1e293b']
+            });
             setTimeout(() => {
                 confetti({ particleCount: 80, angle: 60, spread: 55, origin: { x: 0 } });
                 confetti({ particleCount: 80, angle: 120, spread: 55, origin: { x: 1 } });
             }, 250);
-        });
-    }
+        }
+    });
 
-    // PERFECT LANGUAGE TOGGLE - Works every single click
+    // Language Toggle
     const translations = {
         "Process": "Proceso", "Pricing": "Precios", "Results": "Resultados",
         "Call": "Llamar", "Email": "Correo", "START": "INICIAR", "START TODAY": "COMENZAR HOY",
@@ -703,16 +657,6 @@ window.addEventListener('message', function handler(e) {
         "Get Your Flat-Rate Quote in 60 Seconds": "Obtén Tu Cotización de Tarifa Plana en 60 Segundos",
         "Your Flat-Rate Quote in 60 seconds": "Tu Cotización de Tarifa Plana en 60 segundos",
         "We’ll email you exact pricing within 24 hours.": "Te enviaremos precios exactos por email en 24 horas.",
-        "Thank you!": "¡Gracias!",
-        "Your information was received. We’ll send your quote within 24 hours.": "Tu información fue recibida. Te enviaremos tu cotización en 24 horas.",
-        "Close": "Cerrar",
-        "First Name *": "Nombre *",
-        "Last Name *": "Apellido *",
-        "Email *": "Email *",
-        "Phone Number *": "Número de Teléfono *",
-        "Case Type *": "Tipo de Caso *",
-        "Brief Details (optional)": "Detalles Breves (opcional)",
-        "Get My Flat-Rate Quote": "Obtén Mi Cotización de Tarifa Plana",
         "Secure · Private · No spam ever": "Seguro · Privado · Sin spam nunca",
         "The smarter, more peaceful way through family issues.": "La forma más inteligente y pacífica a través de problemas familiares.",
         "Solutions": "Soluciones",
@@ -752,9 +696,125 @@ window.addEventListener('message', function handler(e) {
         }
     });
 
+// ==== NATIVE FORM SUBMISSION + SUCCESS HANDLING ====
+// This replaces the default form submit (which would reload the page)
+// and gives us full control: confetti, success message, close modal, error handling
+
+const quoteForm = document.querySelector('#quoteModal form');
+
+if (quoteForm) {
+    quoteForm.addEventListener('submit', async function (e) {
+        e.preventDefault();                     // 1. Stop the normal page reload
+
+        // 2. Show a subtle loading state on the button (optional but nice UX)
+        const submitBtn = quoteForm.querySelector('button[type="submit"]');
+        const originalText = submitBtn.textContent;
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+
+        try {
+            // 3. Build the form data (includes your hidden access_key)
+            const formData = new FormData(quoteForm);
+
+            // 4. Send it to Web3Forms
+            const response = await fetch(quoteForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'   // Important: tells Web3Forms we want JSON back
+                }
+            });
+
+            // 5. Reset button state (even if it fails)
+            submitBtn.disabled = false;
+            submitBtn.textContent = originalText;
+
+            // 6. SUCCESS PATH
+            if (response.ok) {
+                const result = await response.json();  // Web3Forms returns { success: true, message: "..." }
+
+                // Fire your existing confetti exactly like the old Google Form did
+                confetti({
+                    particleCount: 150,
+                    spread: 70,
+                    origin: { y: 0.6 },
+                    colors: ['#f59e0b', '#fbbf24', '#ffffff', '#1e293b']
+                });
+                setTimeout(() => {
+                    confetti({ particleCount: 80, angle: 60, spread: 55, origin: { x: 0 } });
+                    confetti({ particleCount: 80, angle: 120, spread: 55, origin: { x: 1 } });
+                }, 250);
+
+                // OPTIONAL: Replace the entire form with a beautiful success message
+                quoteForm.innerHTML = `
+                    <div class="text-center py-16 px-8">
+        <div class="w-24 h-24 mx-auto mb-8 bg-gradient-to-br from-amber-600 to-amber-400 rounded-full flex items-center justify-center">
+            <svg class="w-16 h-16 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+        </div>
+        <h3 class="text-4xl font-light text-amber-400 mb-4">You're all set!</h3>
+        <p class="text-xl text-gray-300 mb-8">We received your information.<br>Check your email for your flat-rate quote within 24 hours.</p>
+        <button onclick="closeQuoteModal()" class="px-10 py-4 bg-gradient-to-r from-amber-600 to-amber-400 hover:from-amber-500 hover:to-amber-300 rounded-full font-bold text-black text-lg transition-all">
+            Close
+        </button>
+    </div>
+                `;
+
+                // If you prefer to just close the modal immediately, uncomment the next line instead:
+                // closeQuoteModal();
+            } 
+            // 7. ERROR PATH
+            else {
+                const error = await response.json();
+                alert(`Oops! Something went wrong.\n${error.message || 'Please try again.'}`);
+            }
+        } catch (err) {
+            // Network error or JavaScript error
+            submitBtn.disabled = false;
+            submitBtn.textContent = originalText;
+            alert('Connection error. Please check your internet and try again.');
+            console.error(err);
+        }
+    });
+}
+
     // Safety net for icons
     window.addEventListener('load', () => setTimeout(() => feather.replace(), 500));
-    </script>
+</script>
+
+<!-- Schema.org Structured Data for Local Business -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Vegas Family Pro's",
+  "description": "Premium family law solutions including document preparation, private mediation, and limited-scope representation in Las Vegas.",
+  "url": "https://vegasfamilypros.com",
+  "telephone": "+17025561643",
+  "email": "info@vegasfamilypros.com",
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "285"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ]
+}
+</script>
 
 </body>
 </html>
